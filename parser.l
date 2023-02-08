@@ -16,6 +16,7 @@
     #define STRING 3
     #define BOOL 4
 %}
+%option noyywrap
 
 WORD [a-zA-Z0-9_.-]
 QUOTED_STRING \"[^\"]*\"|'[^']*'
